@@ -1,0 +1,13 @@
+{
+  "type": "module",
+  "name": "data-processing",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "scan": "node --experimental-json-modules index.js"
+  },
+  "author": "Rick Night",
+  "license": "ISC"
+}
