@@ -8,7 +8,9 @@ console.log('PROJECTS', projects);
 projects.forEach(p => {
     console.log('PROJECTS', p);
 
+    // Scan Blockchain here based on timestamp 
+
     // Break off some kindof threading here
     p.tvl();
     // 
-})
+});
