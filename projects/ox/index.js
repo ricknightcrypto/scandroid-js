@@ -10,7 +10,7 @@ const walletAddress = '0xba7f8b5fb1b19c1211c5d49550fcd149177a5eaf' // # Balance 
 // const web3 = new Web3( new Web3.providers.HttpProvider(INFURIA_URL) );
 
 function tvl () {
-    console.log('abi', abi)
+    console.log('abi in token balance', abi);
     api.getBalance(walletAddress, abi, tokenAddress);
 }
 

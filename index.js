@@ -3,7 +3,6 @@ import projects from './projects/index.js';
 
 // Run through all projects and get balances.
 // Write balances to JSON file
-
 console.log('PROJECTS', projects);
 
 projects.forEach(p => {
